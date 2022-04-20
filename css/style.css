@@ -169,7 +169,10 @@ header .icons #menu-bars{
 .swiper-pagination-bullet-active{
     background:var(--green);
 }
-
+.circular{
+    border-radius: 1.5rem;
+}
+/* 
 .circular{
     animation: imgRotate 50s linear infinite;
     
@@ -179,7 +182,7 @@ header .icons #menu-bars{
     100% { 
         transform: rotate(360deg); 
     } 
-}
+} */
 
 .dishes .box-container{
     display: grid;
